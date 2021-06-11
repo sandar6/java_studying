@@ -8,7 +8,14 @@ package chn.appcn.day02.demo05;
 * */
 public class Demo04ArrayUse {
     public static void main(String[] args) {
-        int [] arrayA = {1,2,3};
+        int [] arrayA = {10,20,30};
         System.out.println(arrayA);
+//        打印数组中单个的元素
+        System.out.println(arrayA[1]);
+        System.out.println("=======");
+
+//        将数组中的单个元素赋值给变量
+        int num = arrayA[1];
+        System.out.println(num);
     }
 }
